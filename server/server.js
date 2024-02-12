@@ -271,7 +271,7 @@ let needSetup = false;
     app.use("/upload", express.static(Database.uploadDir));
 
     app.get("/.well-known/change-password", async (_, response) => {
-        response.redirect("https://github.com/louislam/uptime-kuma/wiki/Reset-Password-via-CLI");
+        response.redirect("https://github.com/wo2ni/uptime-kuma");
     });
 
     // API Router
