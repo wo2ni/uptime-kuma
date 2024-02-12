@@ -92,9 +92,11 @@ export default {
                 notifications: {
                     title: this.$t("Notifications"),
                 },
+                /*
                 "reverse-proxy": {
                     title: this.$t("Reverse Proxy"),
                 },
+                */
                 tags: {
                     title: this.$t("Tags"),
                 },
