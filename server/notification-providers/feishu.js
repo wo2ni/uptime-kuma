@@ -30,7 +30,7 @@ class Feishu extends NotificationProvider {
                     content: {
                         post: {
                             zh_cn: {
-                                title: "UptimeKuma Alert: [Down] " + monitorJSON["name"],
+                                title: "Bad-BoY Alert: [😈Down] " + monitorJSON["name"],
                                 content: [
                                     [
                                         {
@@ -56,7 +56,7 @@ class Feishu extends NotificationProvider {
                     content: {
                         post: {
                             zh_cn: {
-                                title: "UptimeKuma Alert: [Up] " + monitorJSON["name"],
+                                title: "Bad-BoY Alert: [😊Up] " + monitorJSON["name"],
                                 content: [
                                     [
                                         {
